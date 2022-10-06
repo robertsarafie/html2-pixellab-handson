@@ -1,15 +1,1 @@
-body {
-  background-color: red;
-}
-
-.home-catalog-preview {
-  margin: auto;
-}
-.home-catalog-preview .product-tiles {
-  color: red;
-}
-.home-catalog-preview .product-tiles .product-tile-header {
-  padding: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
+body{background-color:red}.home-catalog-preview{margin:auto}.home-catalog-preview .product-tiles{color:red}.home-catalog-preview .product-tiles .product-tile-header{padding:20px}/*# sourceMappingURL=style.css.map */
