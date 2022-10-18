@@ -5,6 +5,14 @@ ul {
     &:hover {
       color: red;
     }
+
+    &:active {
+      color: purple;
+    }
+
+    &:visited {
+      color: green;
+    }
   }
 }
 
@@ -24,6 +32,24 @@ ul {
   .reverse & {
     width: 100%;
     padding: 10px 20px;
+  }
+}
+
+ol {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: magenta;
+    }
+
+    &:active {
+      color: pink;
+    }
+
+    &:visited {
+      color: lightcoral;
+    }
   }
 }
 

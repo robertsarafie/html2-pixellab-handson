@@ -10,24 +10,56 @@
   border: 1px solid #000;
 }
 
-.b-borderStyle {
+.b-dotted {
   border-style: dotted;
 }
 
-.b-borderStyle {
+.b-solid {
   border-style: solid;
 }
 
-.b-borderStyle {
+.b-dashed {
   border-style: dashed;
 }
 
-.b-borderStyle {
+.b-double {
   border-style: double;
 }
 
-.b-borderStyle {
+.b-none {
   border-style: none;
+}
+
+.m-xs {
+  margin: 4px;
+}
+
+.m-sm {
+  margin: 8px;
+}
+
+.m-md {
+  margin: 16px;
+}
+
+.m-lg {
+  margin: 32px;
+}
+
+.p-xs {
+  padding: 4px;
+}
+
+.p-sm {
+  padding: 8px;
+}
+
+.p-md {
+  padding: 16px;
+}
+
+.p-lg {
+  padding: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */

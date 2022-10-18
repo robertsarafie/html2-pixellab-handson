@@ -11,6 +11,43 @@
   animation: bar01 10s ease-in;
 }
 
+@keyframes bar02 {
+  0% {
+    width: 150px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+.bar-02 {
+  animation: bar02 8s linear;
+}
+
+@keyframes bar03 {
+  0% {
+    width: 100%;
+  }
+
+  33% {
+    width: 75%;
+    background-color: yellow;
+  }
+
+  66% {
+    width: 200px;
+    background-color: red;
+  }
+
+  100% {
+    width: 5px;
+    background-color: blue;
+  }
+}
+.bar-03 {
+  animation: bar03 12s ease-in;
+}
+
 @keyframes bar04 {
   0% {
     background-color: red;
@@ -58,4 +95,17 @@
 }
 .bar-05 {
   animation: bar05 8s linear;
+}
+
+@keyframes bar06 {
+  0% {
+    width: 200px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+.bar-06 {
+  animation: bar06 4s ease-in;
 }

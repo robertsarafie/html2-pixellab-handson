@@ -10,6 +10,24 @@
   background-color: $color;
 }
 
+@mixin circle() {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  border: 3px solid red;
+  background-color: purple;
+}
+
+@mixin circle-bg($color: yellow) {
+  background-color: $color;
+}
+
+@mixin circle-border($width: 10px, $color: blue) {
+  border: $width solid $color;
+}
+// aici nu sunt sigur daca e bine, ca am gresit la un moment dat si pixeltab-ul imi arata tot bine
+
 .squares {
   width: 80%;
   border: 1px solid black;
@@ -33,4 +51,34 @@
 
 .square-purple {
   @include square-bg(purple);
+}
+
+.circles {
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  @include circle();
+}
+
+.circle-red {
+  @include circle-bg(red);
+}
+
+.circle-green {
+  @include circle-bg(green);
+}
+
+.circle-blue {
+  @include circle-bg(blue);
+}
+
+.circle-border-blue {
+  @include circle-border();
 }

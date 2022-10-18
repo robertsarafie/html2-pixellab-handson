@@ -23,6 +23,21 @@ body {
   animation: blink 1s linear infinite alternate forwards;
 }
 
+@keyframes blink02 {
+  to {
+    color: black;
+  }
+
+  from {
+    color: white;
+  }
+}
+.loader02 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  animation: blink02 1s linear infinite alternate forwards;
+}
+
 @keyframes bounce {
   from {
     transform: translateY(0);
@@ -52,5 +67,69 @@ body {
 }
 
 .loader-dots .box:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+@keyframes bounce02 {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.loader-boxes {
+  margin-left: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.loader-boxes .box {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-color: black;
+  animation: bounce02 0.8s linear infinite alternate forwards;
+}
+
+.loader-boxes .box:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.loader-boxes .box:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+@keyframes bounce03 {
+  to {
+    transform: translateX(0);
+  }
+
+  from {
+    transform: translateX(-10px);
+  }
+}
+
+.loader-boxesv2 {
+  margin-left: 30px;
+  display: flex;
+  gap: 8px;
+}
+
+.loader-boxesv2 .box {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-color: olive;
+  animation: bounce03 0.8s linear infinite alternate forwards;
+}
+
+.loader-boxesv2 .box:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.loader-boxesv2 .box:nth-child(3) {
   animation-delay: 0.8s;
 }
