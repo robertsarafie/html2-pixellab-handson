@@ -58,6 +58,16 @@ body {
 }
 /* do not touch this */
 
+.flex-container-01 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-container-01 :nth-of-type(2) {
+  flex-shrink: 2;
+}
+
 .flex-container-02 {
   flex-direction: column;
   justify-content: space-between;
@@ -70,4 +80,47 @@ body {
 
 .flex-container-02 :last-child {
   flex-shrink: 3;
+}
+
+.flex-container-03 {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-container-03 :nth-last-child(3) {
+  flex-shrink: 2  ;
+}
+
+.flex-container-04 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-04 :nth-last-of-type(3) {
+  flex-shrink: 3;
+}
+
+.flex-container-04 :nth-of-type(4) {
+  flex-shrink: 2;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-05 :nth-child(4) {
+  flex-shrink: 2;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-06 :last-of-type {
+  flex-shrink: 2;
 }

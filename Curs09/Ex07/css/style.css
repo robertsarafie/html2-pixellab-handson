@@ -61,3 +61,54 @@ body {
 .flex-container-01 > :first-child + .flex-item + .flex-item {
   flex-grow: 2;
 }
+
+.flex-container-02 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-container-02 :nth-of-type(2) {
+  flex-grow: 1;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+}
+
+.flex-container-03 :nth-last-child(4) {
+  flex-grow: 2;
+}
+
+.flex-container-03 :nth-child(4) {
+  flex-grow: 1;
+}
+
+.flex-container-04 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-container-04 :nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.flex-container-05 :nth-last-of-type(3) {
+  flex-grow: 2;
+}
+
+.flex-container-05 :nth-last-of-type(2) {
+  flex-grow: 1;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+}
+
+.flex-container-06 :nth-last-of-type(1) {
+  flex-grow: 1;
+}
