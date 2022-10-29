@@ -1,0 +1,147 @@
+/* M.C. Hammer - U Can't Touch This */
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+margin: 25px 0;
+border: 1px solid #000;
+padding: 25px;
+}
+/* M.C. Hammer - U Can't Touch This */
+
+.grid-container-1 {
+  border: 1px solid black ;
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  justify-content: end;
+  align-content: end;
+}
+
+.grid-item-1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: lightblue;
+
+}
+
+.grid-item-2 {
+  grid-column: -2 / -1;
+  grid-row: -2 / -1;
+  background-color: lightblue;
+
+}
+
+.grid-container-2 {
+  border: 1px solid black ;
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-item-1b {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: lightblue;
+}
+
+.grid-item-2b {
+  grid-column: -2 / -1;
+  grid-row: -2 / -1;
+  background-color: lightblue;
+}
+
+.grid-container-3 {
+  border: 1px solid black ;
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  justify-content: center;
+  align-content: end;
+}
+
+.grid-item-1c {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: lightblue;
+}
+
+.grid-item-2c {
+  grid-column: -2 / -1;
+  grid-row: -2 / -1;
+  background-color: lightblue;
+}
+
+.grid-container-4 {
+  border: 1px solid black ;
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  justify-content: start;
+  align-content: start;
+}
+
+.grid-item-1d {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: lightblue;
+}
+
+.grid-item-2d {
+  grid-column: -2 / -1;
+  grid-row: -2 / -1;
+  background-color: lightblue;
+}
+
+.grid-container-5 {
+  border: 1px solid black ;
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  justify-content: center;
+  align-content: start;
+}
+
+.grid-item-1e {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: lightblue;
+}
+
+.grid-item-2e {
+  grid-column: -2 / -1;
+  grid-row: -2 / -1;
+  background-color: lightblue;
+}
+
+.grid-container-6 {
+  border: 1px solid black ;
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  justify-content: end;
+  align-content: center;
+}
+
+.grid-item-1f {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: lightblue;
+}
+
+.grid-item-2f {
+  grid-column: -2 / -1;
+  grid-row: -2 / -1;
+  background-color: lightblue;
+}
